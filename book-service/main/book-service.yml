@@ -1,8 +1,11 @@
-datasource:
-    uri: mongodb://localhost:8753/books
-    username: root
-    password: root
-    authenticationDatabase: admin
 server:
   port: 7099
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:8753/books
+      username: root
+      password: root
+      authenticationDatabase: admin
 
