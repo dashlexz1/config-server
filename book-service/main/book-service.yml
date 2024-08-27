@@ -4,9 +4,7 @@ server:
 spring:
   data:
     mongodb:
-      uri: mongodb://localhost:8753/books
-      username: root
-      password: root
-      authenticationDatabase: admin
+      uri: mongodb://root:root@localhost:8753/books?authSource=admin
+
 
 
